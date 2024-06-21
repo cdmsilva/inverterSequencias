@@ -7,14 +7,14 @@ body{
 }
 .container{
     background-color: white;
-}
-div>h1{
+    border: 1px solid blanchedalmond;
+    border-radius: 4px;
     text-align: center;
+    width: 350px;
 }
-div>p{
-    text-align: center;
-}
+
 button {
+    display: inline-block;
     padding: 10px 15px;
     background-color: aquamarine;
     border: none;
@@ -22,6 +22,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     margin-top: 10px;
+    align-items: center;
 }
 button:hover {
     background-color: blanchedalmond;
